@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header-container {
+    display: flex;
+    flex-flow: column wrap;
+    background: #1F2937;
+    color: white;
+    padding: 10px 150px 200px;
+    
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
