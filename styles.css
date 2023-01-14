@@ -127,3 +127,37 @@ li {
     display: flex;
     justify-content: flex-end;
 }
+
+/* Fourth part of website */
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-middle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 100px;
+    padding: 25px 220px;
+    margin: 100px;
+    background-color: #3882F6;
+    border: 5px solid #ddd;
+}
+
+.fourth-content {
+    color: #ddd;
+}
+
+/* Fifth part of website */
+
+.copyright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #ddd;
+    padding: 30px;
+}
